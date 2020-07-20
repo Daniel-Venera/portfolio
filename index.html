@@ -2,13 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="shortcut icon" href="./images/pc.png" type="image/x-icon" />
     <title>Daniel Venera</title>
   </head>
   <body>
+    <header>
+      <div class="wrapper">
+        <div class="header">
+          <div class="header__btn-menu"></div>
+        </div>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="wrapper hero-wrapper">
+        <h1 class="hero__title">Hi, my name is Daniel<br />I'm a front-end developer</h1>
+        <div class="hero__arrow"><i class="fa fa-angle-down"></i></div>
+      </div>
+    </div>
+    <section id="projects">
+      <div class="wrapper">
+        <h2>Projects</h2>
+        <div class="projects-row">
+          <div class="project">
+            <img src="./images/wambi.png" alt="wambi project" class="project__image" />
+            <a href="https://daniel-venera.github.io/wambi/" class="project__link" target="_blank"></a>
+            <div class="project__description">Rebuilding Wambi HomePage<br />(HTML / CSS / Javascript)</div>
+          </div>
+          <div class="project">
+            <img src="./images/mascarade.png" alt="mascarade project" class="project__image" />
+            <a href="https://daniel-venera.github.io/mascarade/" class="project__link" target="_blank"></a>
+            <div class="project__description">Mascarade<br />(HTML / CSS / Javascript)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="wrapper">
+        <h2>Skills</h2>
+        <div class="skills-items">
+          <img src="./images/html.png" alt="html" class="skills-items__item" />
+          <img src="./images/css.png" alt="css" class="skills-items__item" />
+          <img src="./images/javascript.png" alt="javascript" class="skills-items__item" />
+          <img src="./images/react.png" alt="react" class="skills-items__item" />
+          <img src="./images/github.png" alt="github" class="skills-items__item" />
+        </div>
+      </div>
+    </section>
+    <section id="formation">
+      <div class="wrapper">
+        <h2>Formation</h2>
+        <div class="formation-items">
+          <img src="./images/openclassrooms.jpg" alt="openclassrooms" class="formation-items__item" />
+          <img src="./images/thp.png" alt="the hacking project" class="formation-items__item" />
+          <img src="./images/gem.jpg" alt="grenoble management school" class="formation-items__item" />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="wrapper">
+        <h2>About</h2>
+        <div class="about-content">
+          <img src="./images/photo.jpg" alt="daniel venera photo" class="about-content__image" />
+          <p class="about-content__text">
+            After 2 years of experience in managing digital projects for different companies, I've decided to become a web developer. I'm passionate about new technologies and web programming. I'm
+            currently looking for a work-study with my school (OpenClassrooms). I'm organized, rigorous and always optimistic. I hope you enjoyed the website. Please contact me for more detailed
+            information.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="wrapper">
+        <span>&#169; 2020 Daniel Venera </span>
+      </div>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>

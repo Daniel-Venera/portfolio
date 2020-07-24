@@ -130,10 +130,11 @@ h2 {
 }
 
 .skills-items__item {
-  display: block;
-  width: 20%;
-  max-height: 170px;
   padding: 0px 5px;
+}
+
+.skills-items__item img {
+  width: 100%;
 }
 
 .formation-item {
@@ -265,10 +266,7 @@ footer a {
     transform: scale(1.1);
   }
   .skills-items__item {
-    max-height: 170px;
     padding: 0px 30px;
-  }
-  #html, #css, #js, #react, #github {
     opacity: 0;
     transition: all 1s ease-in-out;
   }

@@ -276,6 +276,12 @@ footer a {
   #css {
     transform: translateY(-100px);
   }
+  #sass {
+    transform: translateY(100px);
+  }
+  #js {
+    transform: translateY(-100px);
+  }
   #react {
     transform: translateY(100px);
   }
